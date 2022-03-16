@@ -1,7 +1,7 @@
 //Package example
 package example
 
-import {
+import (
 	"math/rand"
 	"strconv"
 	"strings"
@@ -10,7 +10,7 @@ import {
 	zero "github.com/wdvxdr1123/Zerobot/message"
 
 	"github.com/FloatTech/Zerobot-Plugin/order"
-}
+)
 
 func init(){
 	engine := control.Register("example",order.PrioChoose, &control.Options{
